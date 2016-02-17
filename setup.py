@@ -11,7 +11,7 @@ setup(
         description = 'Easy slack posting direct message bot tool',
         author = 'Daiki Shimada',
         author_email = 'daiki.shimada.9g@stu.hosei.ac.jp',
-        url = '',
+        url = 'https://github.com/DaikiShimada/cheryl.git',
         install_requires = install_requires,
         license='http://www.apache.org/licenses/LICENSE-2.0'
     )
