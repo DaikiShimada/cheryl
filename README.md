@@ -2,6 +2,11 @@
 ## Requirements
 - Python 2.x (checked Python 2.7.6)
 - [slacker 0.9.0](https://github.com/os/slacker)
+## Install
+You can install via pip command.
+```
+pip install git+https://github.com/DaikiShimada/cheryl.git
+```
 ## How to use
 Show a easy example.
 ```python
