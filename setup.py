@@ -8,6 +8,7 @@ install_requires = [ slacker_version ]
 setup(
         name = 'cheryl',
         version = '0.1.0',
+        packages = ['cheryl'],
         description = 'Easy slack posting direct message bot tool',
         author = 'Daiki Shimada',
         author_email = 'daiki.shimada.9g@stu.hosei.ac.jp',
