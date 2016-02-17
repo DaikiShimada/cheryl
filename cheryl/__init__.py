@@ -56,7 +56,7 @@ class CherylAPI(SlackDMBot):
         with codecs.open(os.path.expanduser(configfile), 'r', 'utf-8') as f:
             self._config = json.load(f)
             
-        tk = self.config['token'] if token is None else token
+        tk = self._config['token'] if token is None else token
         super(CherylAPI, self).__init__(tk)
 
     def post_direct_message_by(self, dst_usrname, text, attachments=None):
