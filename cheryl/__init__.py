@@ -5,14 +5,8 @@ from slacker import Slacker
 import os.path
 import json, codecs
 
-from logging import getLogger,Formatter,StreamHandler,DEBUG
-logger = getLogger()
-formatter = Formatter(fmt='%(asctime)s %(message)s',datefmt='%Y/%m/%d %p %I:%M:%S,',)
-handler = StreamHandler()
-handler.setLevel(DEBUG)
-handler.setFormatter(formatter)
-logger.setLevel(DEBUG)
-logger.addHandler(handler)
+from logging import getLogger
+logger = getLogger(__name__)
 
 class SlackDMBot(object):
     _slack = None
